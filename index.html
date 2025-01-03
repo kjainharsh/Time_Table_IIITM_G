@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Time Table</title>
+</head>
+
+<body>
+    <h1>Time Table<br>3rd Semester</h1>
+    <h3>Enter your Roll number</h3>
+    <center>
+        <input type="text" onfocus="hide()" placeholder="ROLL NO" id="in">
+
+        <select name="customday" id="customday" onfocus="hide()">
+            <option value="0">Day: Automatic</option>
+            <option value="1">Monday</option>
+            <option value="2">Tuesday</option>
+            <option value="3">Wednesday</option>
+            <option value="4">Thursday</option>
+            <option value="5">Friday</option>
+        </select>
+
+        <button onclick= "func()">ENTER</button>
+    </center>
+    <div id="result">
+
+        <h3 id="alias"></h3>
+        <p id="en">Lorem ipsum</p>
+
+        <br> <br> <br>
+
+        <div class="timeline">
+            <div class="container left 1">
+                <div class="content">
+                    <h2 class="timeslot" id="tslot1">09:00AM - 09:55AM</h2>
+                    <p class="desslot" id="dslot1">Lorem ipsum..</p>
+                    <h5 id="mslot1"></h5>
+                </div>
+            </div>
+            <div class="container right 2">
+                <div class="content">
+                    <h2 class="timeslot" id="tslot2">10:00AM - 10:55AM</h2>
+                    <p class="desslot" id="dslot2">Lorem ipsum..</p>
+                    <h5 id="mslot2"></h5>
+                </div>
+            </div>
+            <div class="container left 3">
+                <div class="content">
+                    <h2 class="timeslot" id="tslot3">11:00AM - 11:55AM</h2>
+                    <p class="desslot" id="dslot3">Lorem ipsum..</p>
+                    <h5 id="mslot3"></h5>
+                </div>
+            </div>
+            <div class="container right 4">
+                <div class="content">
+                    <h2 class="timeslot" id="tslot4">12:00PM - 12:55PM</h2>
+                    <p class="desslot" id="dslot4">Lorem ipsum..</p>
+                    <h5 id="mslot4"></h5>
+                </div>
+            </div>
+            <div class="container left 5">
+                <div class="content">
+                    <h2 class="timeslot" id="tslot5">01:00PM - 01:55PM</h2>
+                    <p class="desslot" id="dslot5">Lorem ipsum..</p>
+                    <h5 id="mslot5"></h5>
+                </div>
+            </div>
+            <div class="container right 6">
+                <div class="content">
+                    <h2 class="timeslot" id="tslot6">02:00PM - 02:55PM</h2>
+                    <p class="desslot" id="dslot6">Lorem ipsum..</p>
+                    <h5 id="mslot6"></h5>
+                </div>
+            </div>
+            <div class="container left 7">
+                <div class="content">
+                    <h2 class="timeslot" id="tslot7">03:00PM - 03:55PM</h2>
+                    <p class="desslot" id="dslot7">Lorem ipsum..</p>
+                    <h5 id="mslot7"></h5>
+                </div>
+            </div>
+            <div class="container right 8">
+                <div class="content">
+                    <h2 class="timeslot" id="tslot8">09:00AM - 11:00AM</h2>
+                    <p class="desslot" id="dslot8">Lorem ipsum..</p>
+                    <h5 id="mslot8"></h5>
+                </div>
+            </div>
+            <div class="container left 9">
+                <div class="content">
+                    <h2 class="timeslot" id="tslot9">11:00AM - 01:00PM</h2>
+                    <p class="desslot" id="dslot9">Lorem ipsum..</p>
+                    <h5 id="mslot9"></h5>
+                </div>
+            </div>
+            <div class="container right 10">
+                <div class="content">
+                    <h2 class="timeslot" id="tslot10">02:00PM - 04:00PM</h2>
+                    <p class="desslot" id="dslot10">Lorem ipsum..</p>
+                    <h5 id="mslot10"></h5>
+                </div>
+            </div>
+            <div class="container left 11">
+                <div class="content">
+                    <h2 class="timeslot" id="tslot11">04:00AM - 06:00PM</h2>
+                    <p class="desslot" id="dslot11">Lorem ipsum..</p>
+                    <h5 id="mslot11"></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
